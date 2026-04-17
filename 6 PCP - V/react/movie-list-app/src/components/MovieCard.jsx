@@ -8,6 +8,7 @@ const MovieCard = ({ movie }) => {
       className={`movie-card ${movie.watched ? "watched" : ""}`}
       data-testid="movie-item"
     >
+      <h1>Movie Card</h1>
       <div className="movie-header">
         <h3 data-testid="movie-title">
           {movie.title || "Untitled"} ({movie.year || "N/A"})
